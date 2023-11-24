@@ -1,0 +1,39 @@
+Here only react and react-dom is used 
+index.html is outside the public 
+so it is html is direcly loading the js files 
+
+
+in the npx style const root was taking the reference and then rendering the things 
+here direcly react-DOM.render is done after taking the reference using getElementById
+
+
+NOTHING much of a difference 
+vite bundler is simply lightweight,     
+since scripts and testing libraries are not present inthis 
+
+
+rendering a function with html exporting it to a diff jsx file and then rendering again is the main logic 
+
+- rendering the component, name must be uppercase
+
+- also the vite only takes components in the jsx format   
+- some libraries take the things and only allow jsx
+        - but react using npx takes js and jsx not a problem
+
+
+
+all the elements are enclosed in a common single jsx 
+a single <></> fragment tag is taken to enclose all the divs and single tags 
+
+
+
+Function exporting is called components in  react
+
+
+
+React and react-DOM makes the method
+parallel DOM is maintained by a react-DOM and stored in root 
+only root element is tinkered and taken into hands for manupulation
+
+
+

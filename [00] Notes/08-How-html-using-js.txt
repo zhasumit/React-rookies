@@ -1,0 +1,5 @@
+Js file is not laoded into the html files 
+
+package.json -> scripts : react-scripts 
+    react-scripts : works behind the scene and inject js and loads the js 
+    loads extra scripts into the public/index.html file 

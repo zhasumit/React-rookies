@@ -1,0 +1,50 @@
+all the node modules files are installed on the basis of package.json file 
+node modules are easily downloaded when npm install is done
+
+.gitignore : 
+    contains the list of files to be ignored to be pushed onto git 
+    like node modules folder /build folder .env files, etc
+
+package-lock.json : 
+    same as package.json but the dependencies are locked and only run on that versions 
+
+
+
+
+all the important stuff is done in the source folder or the public folder
+/puiblic/manifest   ->  in mobile devices the files and folder are taken in meta tags via this manifest 
+/puiblic/robots.txt -> its for the search engines 
+/puiblic/index.html -> the main page that is rendered on the project 
+    This single file contains the root which handles all the components inside the react 
+    this is the reason it's also called SPA - single page application 
+
+
+/puiblic/index.html : 
+    <noscript> if the js is not enabled : gives message to enable the js
+    single div with id root
+
+
+
+/src/index.js : 
+    react -> core react library for taking refernces
+    react-DOM -> implement the react on to the web
+
+    const root = react-DOM.createRoot(document.getElementById('root'))
+    take element in index.html of id root and store it in root variable
+
+    root.render() : renders the jsx 
+    jsx are the custom tags 
+    
+    <ReactStrictMode> : 
+            property of react, specific for developement 
+            used for certain optimizations 
+
+
+/src/app.js :
+    function that returns some html using jsx syntax
+    at last the function is exported
+
+
+SUMMARY: 
+Function --> reanders HTML and return it --> export it --> exported things is imported and used as jsx
+write js using html

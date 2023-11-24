@@ -1,5 +1,12 @@
+import Chai from "./chai";
+
 function App() {
-	return <h1>Hello world using vite | Sumit Kumar Jha</h1>;
+	return (
+		<div>
+			<h1>Hello world using vite | Sumit Kumar Jha</h1>
+			<Chai />
+		</div>
+	);
 }
 
 export default App;
