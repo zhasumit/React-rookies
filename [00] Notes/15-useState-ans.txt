@@ -1,0 +1,15 @@
+the values will not be changing multiple times 
+since in useState things happens in batches
+once a batch a change is executed
+
+fiber diff algo takes diffing and updates on a batch in the virtualDOM tree
+
+using the callback function inside the useState 
+then we call the previousState and 
+thence all the values are changed multiple times
+
+
+here prevCounter is counter only but reference to the last value 
+setCounter((prevCounter) => prevCounter + 1)
+
+using this method the values are not called in batches and so one after another the changes take place
