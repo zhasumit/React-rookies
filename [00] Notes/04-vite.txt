@@ -1,0 +1,16 @@
+vite is a bundler 
+    MAKING the project:
+        npm create vite@latest 
+        select react 
+        select js 
+
+    RUNNING the project : 
+        cd projectName
+        npm install 
+        npm run dev 
+
+its very fast 
+    - package.json again contains all the information about the project
+    - contains no node modules folder (since its is bulky (download only what u need))
+    - dependencies only contains react and react-dom no testing dependencies
+    - there are a lot of dev-dependencies (they donot go into production), only used in prodcution

@@ -1,0 +1,16 @@
+Mostly all the work is done in the src (source) folder 
+
+in src directory : 
+    app.js
+    indes.js
+    are Very important -> taken as root in the public folder of the project which is main 
+
+
+in vite folder 
+    main.jsx 
+    app.jsx 
+    are the main project files 
+
+
+In libraries, naming conventions are not very important 
+In framework, naming conventions are very strict and taken very seriously

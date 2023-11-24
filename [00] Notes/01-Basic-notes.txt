@@ -1,0 +1,37 @@
+npx - node package executer 
+
+npx create-react-app projectName
+    create-react-app (its a utility to make the project)
+
+After that
+        cd projectName
+        npm run start (script to start the react app)
+        npm start also starts the project but due to some exceptions in the beginning take run
+
+package.json --> main entry point of the project
+    - name 
+    - version  
+    - dependencies 
+            - also contains some testing libraries (which may not be required)
+            - scipts (specific commands for projects)
+            - web vitals - for checking the performance 
+
+    - scripts - helps to runnn the project
+            - start : starts the project 
+            - build : makes project production ready 
+            - test  : tests the project
+            - eject : eject from the project after a point of time 
+
+    - eslint - for making some consistency of values on the entire project
+    - browser-list : contains all the browsers that can run the project
+
+
+npx takes a lot of time since downloads a lot of things which may be unnecessary for projects 
+
+
+npm run build 
+        - makes the build of the file 
+        - making the build creates a dir in the projectFolder
+        - build folder is served in the prodcution 
+
+build project is generate only once 
