@@ -1,0 +1,15 @@
+The syntax of object creation from the tags input is done by bundlers 
+bundlers are like vite and babel and other things that have predefined syntax 
+syntax conversion is also done by bundlers 
+
+like we did this in the previous customisation
+const reactElement = {
+	type: "a",
+	props: {
+		href: "https://google.com/",
+		target: "_blank",
+	},
+	children: "Click me to visit Google",
+};
+
+jsx : js mixed with html, which is parsed into a tree like object above

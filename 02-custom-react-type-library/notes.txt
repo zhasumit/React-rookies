@@ -1,0 +1,4 @@
+The same kind of functionality is given by react 
+
+React also has a renderer that renders the things taking it in a loop and then assigning attribute one by one
+element ==> objct ==> renderer ==> injecting into the mainContinaer(root)
