@@ -1,0 +1,9 @@
+useCallback is a react hook that lets u cache the function definition before the re-rendering
+it works on change on  the dependencies 
+
+it is memoization => putting into the cache memory
+
+useState => used to tinker the value of a variable using setMethod and reflect in UI
+useCallback => used to change and optimise the methods to be performed upon the dependency variables
+useEffect => used to change the values if any dependency is changed
+useRef => used to take the reference of any variable or a part (based on given parameters)
