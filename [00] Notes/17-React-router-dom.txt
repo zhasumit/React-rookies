@@ -1,0 +1,6 @@
+Link and NavLink are used in place of a tag 
+isActive is given in the callback of NavLink -> matches the URL and takes if link is active 
+
+
+Loader -> loads the things and fetches as the mouse hovers and stores it in the cache for retreival
+
