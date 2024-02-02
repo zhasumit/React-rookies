@@ -1,0 +1,54 @@
+.container {
+    width: 15em;
+    margin: 0 0.2em;
+    display: inline-block;
+    position: relative;
+}
+
+.pic img {
+    width: 100%;
+}
+
+.title {
+    font-weight: bold;
+    margin-bottom: 0.2em;
+}
+
+.channel {
+    font-weight: bold;
+}
+
+.channel,
+.views {
+    font-size: small;
+    color: #aaa;
+}
+
+.views span {
+    padding: 0 0.5em;
+}
+
+.views {
+    margin-bottom: 0.5em;
+}
+
+.close {
+    padding: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: transparent;
+    position: absolute;
+    right: 5px;
+}
+
+.edit {
+    padding: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: transparent;
+    position: absolute;
+    right: 5px;
+    top: 35px;
+}
