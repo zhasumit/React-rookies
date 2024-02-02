@@ -30,6 +30,7 @@ function App() {
 		const newVideos = [...videos];
 		newVideos.splice(indexToReplace, 1, vid); // this replaces one element
 		setVideos(newVideos);
+		setVideoToEdit(null);
 	}
 	return (
 		<>
