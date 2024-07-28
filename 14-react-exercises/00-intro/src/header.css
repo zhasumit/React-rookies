@@ -1,0 +1,7 @@
+#HeaderAnchors {
+    display: flex;
+    gap: 3em;
+    list-style: none;
+    margin-bottom: 2em;
+}
+
