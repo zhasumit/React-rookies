@@ -1,0 +1,40 @@
+button {
+    font-size: 1.2em;
+    background-color: steelblue;
+    padding: 10px 25px;
+    border-radius: 0.5em;
+    border: none;
+    display: block;
+    margin-top: 0.4em;
+    min-width: 12em;
+    font-weight: 400;
+}
+
+.red {
+    background-color: rgb(255, 177, 163);
+    color: black;
+}
+
+.magenta {
+    background-color: rgb(246, 163, 255);
+    color: rgb(124, 0, 0);
+}
+
+.orange {
+    background-color: orange;
+    color: rgb(237, 33, 33);
+}
+
+.pink {
+    background-color: lavender;
+    color: hotpink;
+}
+
+
+img{
+    margin-top: 1em;
+    height: 10em;
+    border-radius: 50%;
+    text-align: center;
+    border: 5px solid hotpink;
+}
