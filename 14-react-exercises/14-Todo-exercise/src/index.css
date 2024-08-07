@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    font-weight: 400;
+}
+
+.todo-list {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+body {
+    background-color: #1b2035;
+    color: white;
+    margin: auto;
+    width: 50%;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+button {
+    font-size: 0.7em;
+    padding: 0.1em 0.3em;
+    border: none;
+    background-color: #9d4646;
+    border-radius: 5px;
+    color: white;
+    background-color: #ffc67b;
+    cursor: pointer;
+    margin: 1px 2px;
+    transition: background-color 0.15s ease;
+}
+
+.deleteTask {
+    padding: 0.1em 0.3em;
+    background-color: #ff6448;
+}
+
+.deleteTask:hover {
+    background-color: #ff3e1c;
+}
+
+.moveButton:hover {
+    background-color: #ffb04a;
+}
+
+.add-button {
+    font-size: 1.3em;
+    padding: 0.5em 0.8em;
+    background-color: rgb(89, 185, 89);
+}
+
+.add-button:hover {
+    background-color: rgb(110, 225, 110);
+}
+
+input[type="text"] {
+    font-size: 1.3rem;
+    padding: 10px;
+    border: 1px solid steelblue;
+    border-radius: 5px;
+    color: #1b2035;
+    margin-bottom: 10px;
+}
+
+ol {
+    padding: 0;
+}
+
+li {
+    font-size: 1.2rem;
+    padding: 8px;
+    background-color: rgba(210, 210, 210, 0.392);
+    margin-bottom: 0.3em;
+    display: flex;
+    align-items: center;
+}
+
+.task {
+    /* element takes as much space as possible  */
+    flex: 1;
+}
