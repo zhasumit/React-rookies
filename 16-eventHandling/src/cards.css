@@ -1,0 +1,13 @@
+* {
+}
+
+.card {
+    width: 25vw;
+    border: 1px solid red;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
