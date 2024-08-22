@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    gap: 10px;
+    padding: 0px 40px;
+    background-color: rgb(46, 45, 45);
+}
+
+body {
+    background-color: #848484;
+}
+
+nav a {
+    padding: 15px 30px;
+    color: white;
+}
+
+.tomato {
+    color: tomato;
+    font-weight: 600;
+}
+
+.userContainer,
+.container {
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.red {
+    background-color: tomato;
+    color: white;
+}
+
+
+.container{
+    font-size: 100px;
+}
